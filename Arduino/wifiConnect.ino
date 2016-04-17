@@ -2,8 +2,8 @@
 * Simple HTTP get webclient test
 */
 #include <ESP8266WiFi.h>
-const char* ssid = "raspberry";
-const char* password = "raspberry";
+const char* ssid = "yourssid";
+const char* password = "your password";
 const char* host = "www.google.com";
 void setup() {
 Serial.begin(115200);
