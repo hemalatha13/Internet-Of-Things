@@ -134,7 +134,7 @@ byte sendEmail()
  
   Serial.println(F("Sending Password"));
 // change to your base64 encoded password
-  client.println("TzVTM3J3RUowQ2E2");
+  client.println("TzVTM3e3RUowT2E2");
  
   if(!eRcv()) return 0;
  
