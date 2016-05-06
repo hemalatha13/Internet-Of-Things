@@ -93,7 +93,7 @@ tolerance = 5       # to keep from being jittery we'll only change
 
 
 #Report Raspberry Pi readings to Thingspeak Channel
-def thermometer():
+def calculate():
     while True:
         temp = trim_pot
 
@@ -190,7 +190,7 @@ while True:
                 last_read = trim_pot
 
         # hang out and do nothing for a half second
-        thermometer()
+        calculate()
         time.sleep(sleep)
 
 
